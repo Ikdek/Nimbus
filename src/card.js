@@ -14,7 +14,7 @@ export function renderCards(containerId, items) {
     track = document.createElement('div');
     track.dataset.cardTrack = '';
     track.className =
-      'flex flex-row gap-3 sm:gap-4 overflow-x-auto pb-4 pt-2 px-1 sm:px-4 lg:px-15 justify-center align-center';
+      'flex flex-row gap-3 sm:gap-4 overflow-x-none pb-4 pt-2 px-1 sm:px-4 lg:px-15 justify-center align-center';
     container.appendChild(track);
   }
 
